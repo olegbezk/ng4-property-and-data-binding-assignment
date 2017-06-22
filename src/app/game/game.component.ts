@@ -24,6 +24,7 @@ export class GameComponent implements OnInit {
     }
 
     onPause() {
+        clearInterval(this.interval);
     }
 
 }
